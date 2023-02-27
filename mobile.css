@@ -34,6 +34,7 @@
   .logo img {
     position: fixed;
     z-index: 4;
+    left:0;
     width: 60px;
     height: 60px;
     margin: 0;
@@ -78,9 +79,7 @@
     padding: 0.2rem 0.3rem;
   }
 
-  #close-btn {
-    left:82%;
-  }
+ 
  .search-container{
   padding:0 2rem;
  } 
@@ -102,6 +101,11 @@
     grid-template-columns: auto;
   }
 
+}
+@media only screen and (max-width: 370px) {
+  #close-btn{
+    left:70%;
+  }
 }
 
 /* Small screens */
@@ -141,6 +145,7 @@
     width: 70%;
     margin: -1.2rem auto;
   }
+
 
   #recipe pre {
     font-size: 0.7rem;

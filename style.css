@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +10,11 @@
 
 html{
     scroll-behavior: smooth;
+  
 }
 body {
     background: rgba(254, 213, 19, 1);
-    overflow-y:scroll;
+  
 }
 
 .navbar {
@@ -37,7 +38,8 @@ header {
   background: #29262b;
   /* opacity:0.9; */
   position: absolute;
-  height: 13vh;
+  height: 14.3vh;
+  height: calc(100vh -14.3vh);
   z-index: -1;
   width: 100%;
 }
@@ -50,7 +52,7 @@ header {
 
 .head-text{
   display: inline-block;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   color: #fff;
   text-align: center;
 }
@@ -95,19 +97,26 @@ header {
 
 .container {
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;    
     height: 100vh;
     margin-bottom: -13rem;
+    margin-bottom: 3rem;
+    height: calc(100vh - 13rem);
+    z-index: 10;
 
 }
 
 .card {
+  position: relative;
+  top: 18%;
+  transition: top 0.5s ease;
     background: #ffff;
     padding: 0rem  0.8rem 1.2rem;
     border-radius: 0.8rem;
     box-shadow: 3px 4px 15px rgba(42, 32, 0, 0.2);
-    /* width:50%; */
+    width:32%;
     max-width:32em;
     max-height:52em;
     overflow: hidden;
@@ -132,11 +141,12 @@ header {
     width: 60%;
     text-transform: capitalize;
     margin: 0 1rem;
-    padding: 0.4rem 0.2rem;
+    padding: 0.4rem 0.1rem;
     outline: none;
     border: none;
     border-bottom: 2px solid #202030;
 }
+
 
 #search-btn {
     /* position: relative; */
@@ -177,19 +187,18 @@ padding: 0.5rem;
 h3{
     text-align: center;
 }
+
 #receipe{
     display: none;
     position: absolute;
     top:0;
+    left:0;
     border-radius: 0.8rem;
-    width:38%;
+    width:100%;
     z-index: 2;
-    margin-top: 8rem ; 
     min-height:100%;
-    
     background-color: #fff;
 }
-
 
 #receipe pre{
     white-space: pre-wrap;
@@ -226,6 +235,5 @@ ul{
      font-size: 0.8rem;
     
 }
-
 
   

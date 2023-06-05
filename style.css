@@ -10,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 82px;
 
 }
 
@@ -105,7 +106,6 @@ header {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-bottom: -13rem;
   margin-bottom: 3rem;
   height: calc(100vh - 13rem);
   z-index: 10;
@@ -129,7 +129,7 @@ header {
 
 img {
   display: block;
-  margin: 1.2rem auto;
+  margin:0.5rem auto 1.6rem auto;
   width: 40%;
   border-radius: 7px;
 }
@@ -211,7 +211,7 @@ h3 {
   white-space: pre-wrap;
   word-wrap: break-word;
   font-size: 0.8rem;
-  padding: 2.3rem 2rem;
+  padding: 2.3rem  2rem 6.3rem 2rem;
 }
 
 

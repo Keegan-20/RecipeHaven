@@ -1,7 +1,7 @@
 {
     "name": " Foodie Recipe Haven",
     "short_name":"Recipe Haven",
-    "start_url": ".",
+    "start_url": "/",
     "background_color":"rgba(254, 213, 19, 1)",
     "theme_color": "#ffff",
     "display": "standalone",

@@ -16,7 +16,6 @@ html {
 
 body {
   background: rgba(254, 213, 19, 1);
-
 }
 
 .navbar {
@@ -59,7 +58,10 @@ header {
   color: #fff;
   text-align: center;
 }
+button{
+  cursor:pointer;
 
+}
 /* ?navigation bar ends */
 
 /* social media icons  */

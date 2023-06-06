@@ -10,14 +10,6 @@ userInp.addEventListener('keydown', (event) => {
   }
 });
 
-// pushing the margin down by 80px onclick
-const sea = document.getElementById('search-btn');
-const myDiv = document.getElementById('card');
-
-sea.addEventListener('click', () => {
-  myDiv.style.top = '80px'; // Move the div downwards by 80 pixels
-});
-
 
 // Add click event listener to search button
 searchBtn.addEventListener('click', searchRecipe);
@@ -101,3 +93,4 @@ if("serviceWorker" in navigator) {
   });
 }
 
+          

@@ -6,7 +6,7 @@ self.addEventListener("install",e =>{
         e.waitUntil(
             caches.open("static").then(cache =>{
                 //files to cached when there is slow or no internet
-                return cache .addAll(["./","./style.css","./mobile.css","./img/logo192.png", "./img/logo.png"]);
+                return cache .addAll(["./","./style.css","./mobile.css","./img/android-chrome-192x192.png","./img/logo.png"]);
             })
         );
     });

@@ -1,5 +1,5 @@
 ## Introduction
-RecipeHaven is a responsive recipe website built to showcase various dishes with its measures and their recipes. It provides users with an easy-to-use interface that allows them to search for specific dishes and view their respective recipes.
+RecipeHaven is a recipe website built to showcase various dishes with its measures and their respective recipes. It provides users with an easy-to-use interface that allows them to search for specific dishes and view their respective recipes.
 
 ### Technologies Used
 RecipeHaven is built using HTML, Pure CSS,Vanill JavaScript.It has made use of TheMealDB api to fetch the dishes.

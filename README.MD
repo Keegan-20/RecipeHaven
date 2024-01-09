@@ -17,7 +17,7 @@ To set up RecipeHaven, follow these steps:
 
 * Clone this repository to your local machine.
 * Open the index.html file in your web browser.
-* Alternatively, you can visit the deployed version of RecipeHaven [here](https://recipe-havens.vercel.app/).
+* Alternatively, you can visit the deployed version of RecipeHaven [here](https://recipe-haven.vercel.app/).
 
 ## Contributing
 Contributions to RecipeHaven are always welcome! If you'd like to contribute, please follow these steps:
